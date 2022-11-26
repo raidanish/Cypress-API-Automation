@@ -32,6 +32,7 @@ describe('All test cases for Post APIs', () => {
           expect(response.body).has.property('name', 'this.UserDataJson.name')
         }).then((response)=>{
             const userID = response.body.id
+            
 
             cy.request({
                 method: 'GET',
