@@ -1,5 +1,5 @@
 //const cypress = require("cypress")
-//// <reference types="Cypress" />
+/// <reference types="Cypress" />
 
 describe('All test cases for GET APIs', () => {
 
